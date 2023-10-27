@@ -5,9 +5,9 @@ import java.io.Serializable;
 
 public enum ClientCategory implements Serializable {
     NONE("Без типу"),
-    SMALL("Малий бiзнес"),
-    MEDIUM("Середнiй бiзнес"),
-    LARGE("Крупний бiзнес"),
+    SMALL("Малий бзнес"),
+    MEDIUM("Середній бізнес"),
+    LARGE("Крупний бізнес"),
     VIP("VIP");
 
     public final String category;

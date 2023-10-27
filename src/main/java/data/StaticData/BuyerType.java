@@ -6,8 +6,8 @@ import java.io.Serializable;
 public enum BuyerType implements Serializable {
     NONE("Без типу"),
     PRIVATE_BUYER("Часний"),
-    TRADING_HOUSE("Торговий дiм"),
-    CONSTRUCTION_COMPANY("Будiвництво"),
+    TRADING_HOUSE("Торговий дім"),
+    CONSTRUCTION_COMPANY("Будівництво"),
     MARKET("Ринок");
 
     public final String type;

@@ -5,9 +5,9 @@ import java.io.Serializable;
 
 public enum SourceType implements Serializable {
     NONE("Без типу"),
-    CALL("Дзвiнок"),
-    SOCIAL_MEDIA("СМI"),
-    INTERNET("Iнтернет");
+    CALL("Дзвінок"),
+    SOCIAL_MEDIA("смі"),
+    INTERNET("інтернет");
 
     public final String source;
 

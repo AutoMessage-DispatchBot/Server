@@ -5,7 +5,7 @@ import java.io.Serializable;
 
 public enum CorrespondenceType implements Serializable {
     NONE("Текст"),
-    PHOTO_VIDEO("Фото/Вiдео"),
+    PHOTO_VIDEO("Фото/Відео"),
     FILE("Файл"),
     CONTACT("Контакт");
 
