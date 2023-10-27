@@ -35,7 +35,7 @@
                                     <manifestEntries>
                                         <Built-By>${user.name}</Built-By>
                                     </manifestEntries>
-                                    <mainClass>Main</mainClass>
+                                    <mainClass>settings.Main</mainClass>
                                 </transformer>
                             </transformers>
                             <filters>

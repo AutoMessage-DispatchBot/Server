@@ -5,19 +5,16 @@ import java.io.Serializable;
 
 public enum Region implements Serializable {
     NONE("Без типа"),
-    VLADIMIRSKAYA("Владимирская"),
-    VOLOGODSKAYA("Вологодская"),
-    IVANOVSKAYA("Ивановская"),
-    KALUZHSKAYA("Калужская"),
-    KOSTROMSKAYA("Костромская"),
-    MOSKOVSKAYA("Москва/МО"),
-    NIZHEGORODSKAYA("Нижегородская"),
-    RYAZANSKAYA("Рязанская"),
-    SMOLENSKAYA("Смоленская"),
-    TVERSKAYA("Тверская"),
-    TULSKAYA("Тульская"),
-    CHEBOKSARY("Чебоксары"),
-    YAROSLAVSKAYA("Ярославская");
+    KYIVSKA("Киівська"),
+    CHERNIGIVSKA("Чернігівська"),
+    POLTAVSKA("Полтавська"),
+    SUMSKA("Сумська"),
+    CHERKASSKA("Черкаська"),
+    ZHYTOMYRSKA("Житомирська"),
+    VINNITSKA("Вінницька"),
+    DNIPROPETROVSKA("Дніпропетровська"),
+    HMELNYTSKA("Хмельницька"),
+    TERNOPILSKA("Тернопільська");
 
     public final String region;
 

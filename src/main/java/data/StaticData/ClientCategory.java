@@ -4,10 +4,10 @@ import java.io.Serial;
 import java.io.Serializable;
 
 public enum ClientCategory implements Serializable {
-    NONE("Без типа"),
-    SMALL("Малый бизнес"),
-    MEDIUM("Средний бизнес"),
-    LARGE("Крупный бизнес"),
+    NONE("Без типу"),
+    SMALL("Малий бзнес"),
+    MEDIUM("Середній бізнес"),
+    LARGE("Крупний бізнес"),
     VIP("VIP");
 
     public final String category;

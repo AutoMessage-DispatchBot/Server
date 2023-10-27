@@ -76,7 +76,7 @@ public record Buyer(
             contacts.append(s.name()).append(" - ").append(s.phone()).append("\n").append(s.jobTitle());
 
         return new Object[]
-                {false, "Редактировать", "Удалить", "Просмотр", this.id, this.companyName, this.type.toString(),
+                {false, "Редагувати", "Видалити", "Перегляд", this.id, this.companyName, this.type.toString(),
                         this.region.toString(), this.manager, this.category.toString(), this.source.toString(),
                         emails.toString(), contacts.toString(), this.additionalInfo};
     }

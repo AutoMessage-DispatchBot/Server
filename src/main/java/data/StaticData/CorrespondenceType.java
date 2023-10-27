@@ -4,8 +4,8 @@ import java.io.Serial;
 import java.io.Serializable;
 
 public enum CorrespondenceType implements Serializable {
-    NONE("Только текст"),
-    PHOTO_VIDEO("Фото/Видео"),
+    NONE("Текст"),
+    PHOTO_VIDEO("Фото/Відео"),
     FILE("Файл"),
     CONTACT("Контакт");
 

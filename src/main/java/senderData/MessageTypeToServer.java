@@ -1,0 +1,29 @@
+package senderData;
+
+import java.io.Serializable;
+
+public enum MessageTypeToServer implements Serializable {
+    AUTHORIZATION_PASSWORD,
+
+    GMAIL_MESSAGE_SENDING,
+    WHATSAPP_MESSAGE_SENDING,
+
+    GMAIL_MESSAGE_CANCEL,
+    WHATSAPP_MESSAGE_CANCEL,
+
+    GMAIL_MESSAGE_LIST,
+    WHATSAPP_MESSAGE_LIST,
+
+    WHATSAPP_AUTHORIZED,
+    WHATSAPP_READY_TO_AUTHORIZE,
+
+    GIVE_CLIENT_LIST_WITH_FILTER,
+    DELETE_CLIENT,
+    ADD_NEW_CLIENT,
+    REDACT_CLIENT,
+    GIVE_MANAGERS_LIST,
+
+    ADD_MANAGER_TO_LIST;
+
+    private static final long serialVersionUID = -5232940110236998312L;
+}
