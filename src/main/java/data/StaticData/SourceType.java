@@ -4,11 +4,10 @@ import java.io.Serial;
 import java.io.Serializable;
 
 public enum SourceType implements Serializable {
-    NONE("Без типа"),
-    CALL("Звонок"),
-    VISIT("Объезд"),
-    SOCIAL_MEDIA("СМИ"),
-    INTERNET("Интернет");
+    NONE("Без типу"),
+    CALL("Дзвiнок"),
+    SOCIAL_MEDIA("СМI"),
+    INTERNET("Iнтернет");
 
     public final String source;
 

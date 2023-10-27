@@ -4,11 +4,11 @@ import java.io.Serial;
 import java.io.Serializable;
 
 public enum BuyerType implements Serializable {
-    NONE("Без типа"),
-    PRIVATE_BUYER("Частное лицо"),
-    TRADING_HOUSE("Торговый дом"),
-    CONSTRUCTION_COMPANY("Стройка"),
-    MARKET("Рынок");
+    NONE("Без типу"),
+    PRIVATE_BUYER("Часний"),
+    TRADING_HOUSE("Торговий дiм"),
+    CONSTRUCTION_COMPANY("Будiвництво"),
+    MARKET("Ринок");
 
     public final String type;
 
